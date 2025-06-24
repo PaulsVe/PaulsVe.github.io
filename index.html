@@ -18,32 +18,20 @@
 
   <h2>SQL Schema & Queries</h2>
   <pre>
-CREATE TABLE streaming_history (
-  id INTEGER PRIMARY KEY,
-  track_name TEXT,
-  artist_name TEXT,
-  end_time DATETIME,
-  ms_played INTEGER
-);
   </pre>
   <p><strong>Sample Query:</strong></p>
   <code>
-    SELECT artist_name, SUM(ms_played)/60000 AS total_minutes
-    FROM streaming_history
-    GROUP BY artist_name
-    ORDER BY total_minutes DESC
-    LIMIT 10;
   </code>
 
   <h2>Dashboard</h2>
   <p>Power BI Screenshot:</p>
-  <img src="images/dashboard.png" alt="Spotify Dashboard" width="800">
+  
 
   <h2>Insights</h2>
   <ul>
-    <li>🔁 Over 140K songs played</li>
-    <li>🎧 7096 hours of listening time</li>
-    <li>📈 Peaks in listening around April and October</li>
+    <li>/li>
+    <li>/li>
+    <li>/li>
   </ul>
   
 </body>
